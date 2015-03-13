@@ -4,7 +4,7 @@ html {
 }
 *, *:before, *:after {
   box-sizing: inherit;
-}
+} 
 /**
  * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
  * http://cssreset.com
@@ -36,6 +36,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
     line-height: 1;
+    font-family: Roboto;
 }
 ol, ul {
     list-style: none;
@@ -57,6 +58,8 @@ ol, ul {
 
 .content {
     padding: 0 15px;
+    text-align: center;
+    color: white;
 }
 
 .top-navigation .logo {
@@ -100,4 +103,9 @@ ol, ul {
  background-repeat: no-repeat;
  background-size: cover;
   height: 45rem;
+}
+
+h1
+{
+  
 }
