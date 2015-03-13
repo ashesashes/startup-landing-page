@@ -46,7 +46,8 @@ ol, ul {
 
 /* Navigation section */
 .top-navigation{
-  background-color: #fff;
+  /*background-color: #fff;*/
+  background-color: #345676;
 }
   
 .top-navigation > .content {
@@ -59,7 +60,7 @@ ol, ul {
 .content {
     padding: 0 15px;
     text-align: center;
-    color: white;
+    background-color: orange;
 }
 
 .top-navigation .logo {
@@ -102,10 +103,59 @@ ol, ul {
  background-position: center bottom;
  background-repeat: no-repeat;
  background-size: cover;
-  height: 45rem;
+ height: 45.938rem;
+ overflow: auto;
+  background-color: purple;
 }
 
-h1
-{
-  
+
+
+.content {
+  background-color: red;
+  color: white;
+  text-align: center;
+  padding: 0 0.938rem;
+  margin: 0 auto;
 }
+
+/* push the h1 tag down */
+.introduction h1{
+  margin-top: 17.5rem;
+  font-size: 3.125rem;
+}
+
+
+.introduction h3{
+ margin-top: 1.25rem;
+ font-size: 1.563rem;
+}
+
+.introduction h1, .introduction h3{
+  color: #FFF;
+  text-align: center;
+  font-weight: 300;
+}
+
+.introduction .buttons{
+  color: #FFF;
+  margin-top: 1.563rem;
+  border-radius: 10px;
+
+}
+
+button{
+  width: 9.688rem;
+  background-color: #F15A29;
+  border-color: #F15A29;
+  text-shadow: none;
+  border-radius: 4.5px;
+  padding: 1rem 1.5rem;
+  font-size: 1.125rem;
+  /* height: 3.45rem;*/
+}
+
+body{
+  background-color: yellow;
+}
+
+
