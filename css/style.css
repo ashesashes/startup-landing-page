@@ -215,6 +215,51 @@ button{
   margin-top: 1.5rem
 }
 
+.social {
+ list-style: none;
+ padding-bottom: 9.375rem;
+}
+
+* push the footer h5 tag down */
+.social h5{
+  margin-top: 5rem;
+  font-size: 3.125rem;
+}
+
+.content h5{
+  margin-top: 2rem;
+  color: #4c5058;
+  text-align: center;
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+.content hr{
+  color: #4c5058;
+  text-align: center;
+  margin-top: 2rem;
+  margin-right: 5rem;
+  margin-left: 5rem;
+}
+
+.content .icons li{
+  margin-top: 2rem;
+  color: #4c5058;
+  list-style: none;
+  display: inline-block;
+  border-radius: 10px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+}
+
+
+
+.content .copy{
+  margin-top: 2rem;
+  text-align: center;
+  color: #4c5058;
+}
 
 /* 
 .cases .devices .caption{ 
