@@ -283,43 +283,8 @@ button{
   margin-top: 2rem;
   text-align: center;
   color: #4c5058;
+  font-size: 0.9rem;
 }
-
-/* 
-.cases .devices .caption{ 
-  /* width: 33.3333%;
-    * height: 4em;
-    * margin: 0 auto; */
-  /* styles to help with debugging */
-
- /*  border: 1px solid black; }
-
-.flex-item {
-  background: tomato;
-  box-sizing: border-box;
-  padding: 15px;
-  /* list-style: none;
-  width: 33.3333%;
-  height: 4em;
-  margin: 0 auto;
-  display: inline;
-  vertical-align: baseline;
-  line-height: 35px;
-}
-
-.caption h3{
-  color: #4c5058;
-  /*text-align: center; */
- /*  font-weight: 400;  
-} */ 
-
-/* 
-.caption h3{
-  /* margin-top: 3rem; */ 
- /*  font-size: 1.567rem; 
-}
-
-*/
 
 
 body{
@@ -328,5 +293,3 @@ body{
   /* fonts and such */
   font-family: 'Roboto', sans-serif;
 }
-
-
