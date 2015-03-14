@@ -46,8 +46,10 @@ ol, ul {
 
 /* Navigation section */
 .top-navigation{
-  /*background-color: #fff;*/
-  background-color: #345676;
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
 }
   
 .top-navigation > .content {
@@ -57,10 +59,9 @@ ol, ul {
   
 }
 
-.content {
+.content{
     padding: 0 15px;
     text-align: center;
-    background-color: orange;
 }
 
 .top-navigation .logo {
@@ -105,7 +106,7 @@ ol, ul {
  background-size: cover;
  height: 45.938rem;
  overflow: auto;
-  background-color: purple;
+ /**  background-color: purple; **/ 
 }
 
 
@@ -124,7 +125,7 @@ ol, ul {
   font-size: 3.125rem;
 }
 
-
+/*push the h3 tag down */
 .introduction h3{
  margin-top: 1.25rem;
  font-size: 1.563rem;
@@ -156,8 +157,6 @@ button{
   font-weight: 100;
   margin: 0 auto;
   display: block;
-  
-  /* height: 3.45rem;*/
 }
 
 .introduction .buttons button:hover{
@@ -169,9 +168,94 @@ button{
   padding: 1rem 1.5rem;
 } 
 
+
+.content h2{
+  color: #4c5058;
+  text-align: center;
+  font-weight: 300;
+  font-size: 2.254rem;
+}
+
+
+.content h2{
+  margin-top: 7.0rem; 
+  
+} 
+
+.cases .devices{
+  padding: 0;
+  margin: 0 auto;
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.caption h3{
+  color: #4c5058;
+  font-size: 1.355rem;
+ 
+}
+
+.flex-item{
+  box-sizing: border-box;
+  margin: 0 auto;
+  vertical-align: baseline;
+  padding: 0;
+  line-height: 35px;
+  display: inline-block;
+}
+
+.devices .flex-item {
+  margin-top: 1.5rem
+}
+
+
+/* 
+.cases .devices .caption{ 
+  /* width: 33.3333%;
+    * height: 4em;
+    * margin: 0 auto; */
+  /* styles to help with debugging */
+
+ /*  border: 1px solid black; }
+
+.flex-item {
+  background: tomato;
+  box-sizing: border-box;
+  padding: 15px;
+  /* list-style: none;
+  width: 33.3333%;
+  height: 4em;
+  margin: 0 auto;
+  display: inline;
+  vertical-align: baseline;
+  line-height: 35px;
+}
+
+.caption h3{
+  color: #4c5058;
+  /*text-align: center; */
+ /*  font-weight: 400;  
+} */ 
+
+/* 
+.caption h3{
+  /* margin-top: 3rem; */ 
+ /*  font-size: 1.567rem; 
+}
+
+*/
+
+
 body{
   /*comment out the color once done */
-  background-color: yellow;
+  
   /* fonts and such */
   font-family: 'Roboto', sans-serif;
 }
