@@ -111,7 +111,7 @@ ol, ul {
 
 
 .content {
-  background-color: red;
+  background-color: clear;
   color: white;
   text-align: center;
   padding: 0 0.938rem;
@@ -139,23 +139,41 @@ ol, ul {
 .introduction .buttons{
   color: #FFF;
   margin-top: 1.563rem;
-  border-radius: 10px;
-
 }
 
 button{
+  text-shadow: none;
+  border-style: none;
+  padding: 1rem 1.5rem;
   width: 9.688rem;
   background-color: #F15A29;
   border-color: #F15A29;
   text-shadow: none;
   border-radius: 4.5px;
-  padding: 1rem 1.5rem;
+  line-height: 1.33;
   font-size: 1.125rem;
+  color: white;
+  font-weight: 100;
+  margin: 0 auto;
+  display: block;
+  
   /* height: 3.45rem;*/
 }
 
+.introduction .buttons button:hover{
+  background-color: #EC3E06;
+  width: 9.688rem;
+  border-radius: 4px;
+  margin: 0 auto;
+  display: block;
+  padding: 1rem 1.5rem;
+} 
+
 body{
+  /*comment out the color once done */
   background-color: yellow;
+  /* fonts and such */
+  font-family: 'Roboto', sans-serif;
 }
 
 
